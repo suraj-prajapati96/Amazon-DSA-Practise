@@ -1,5 +1,6 @@
 #include<iostream>
 #include<vector>
+#include<numeric>
 using namespace std;
 
 int solve(int i,int j,int m, int n, vector<vector<int>>&memo){
@@ -18,7 +19,13 @@ int UniquePath(int m, int n){
 }
 
 int main(){
-    int m=3,n=2;
+    int m=3,n=3;
     cout<<UniquePath(m,n)<<endl;
     return 0;
 }
+
+
+
+
+
+
